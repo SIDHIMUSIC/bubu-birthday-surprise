@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#260f22">
+  <title>For Bubu ♡ — A Birthday Surprise</title>
+  <meta name="description" content="A little universe made with love, just for Bubu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#top">h <span>♡</span> b</a>
+    <button class="sound-toggle" id="soundToggle" aria-label="Toggle music"><span class="sound-icon">♫</span><span id="soundLabel">Sound off</span></button>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-line"></span> A LITTLE WORLD MADE FOR YOU <span class="eyebrow-line"></span></div>
+      <div class="hero-heart">♡</div><p class="pretitle">To my favourite person</p>
+      <h1>Happy Birthday,<br><em>Bubu</em><span class="title-dot">.</span></h1>
+      <p class="hero-copy">Some people make life beautiful just by being in it.<br>You're that person for me.</p>
+      <button class="primary-btn" id="beginBtn">Open your surprise <span>↗</span></button>
+      <div class="date-note">13 · 12 · 2026 <span>—</span> made with love by Harry</div>
+      <div class="scroll-cue"><span></span> SCROLL TO FEEL THE LOVE</div>
+    </section>
+    <section class="countdown-section reveal">
+      <p class="section-kicker">THE DAY WE CELEBRATE YOU</p><h2>Counting down to <em>your day</em></h2>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">--</strong><span>days</span></div><i>:</i><div><strong id="hours">--</strong><span>hours</span></div><i>:</i><div><strong id="minutes">--</strong><span>minutes</span></div><i>:</i><div><strong id="seconds">--</strong><span>seconds</span></div>
+      </div><p class="tiny-note" id="countdownNote">Every second brings us closer to your special day.</p>
+    </section>
+    <section class="message-section reveal" id="letter">
+      <div class="letter-card">
+        <div class="letter-top"><span>✦ A NOTE FOR YOU</span><span>13 / 12 / 26</span></div><div class="letter-flower">❀</div>
+        <p class="handwritten">My dearest Bubu,</p><h2>If I could give you<br><em>one thing...</em></h2>
+        <p class="letter-copy">It would be the ability to see yourself through my eyes. Then you'd understand how special you are, how your smile can turn an ordinary day into something beautiful, and how lucky I feel to have you in my life.</p>
+        <p class="letter-copy">I hope this new year of your life brings you endless reasons to smile, dreams that come true, peaceful days, and all the happiness your heart can hold. Keep being your lovely, silly, wonderful self. Never forget that someone is always cheering for you, believing in you, and choosing you.</p>
+        <p class="letter-copy">Thank you for being my favourite notification, my comfort, and my happiest thought. Today is all about you — and you deserve every bit of magic in it.</p>
+        <p class="handwritten signoff">Always yours, <span>Harry ♡</span></p><div class="letter-seal">H <span>♥</span> B</div>
+      </div>
+    </section>
+    <section class="gallery-section reveal">
+      <p class="section-kicker">LITTLE MOMENTS, BIG FEELINGS</p><h2>My favourite <em>memories</em></h2>
+      <p class="section-sub">A few frames I'd keep forever. Add your photos to make this gallery yours.</p>
+      <div class="photo-grid" id="photoGrid">
+        <figure class="photo-card photo-large"><img src="images/jpg1.jpg" alt="A memory with Bubu" onerror="this.parentElement.classList.add('photo-empty')"><figcaption>one of my favourites ♡</figcaption></figure>
+        <figure class="photo-card"><img src="images/jpg2.jpg" alt="A memory with Bubu" onerror="this.parentElement.classList.add('photo-empty')"><figcaption>that smile</figcaption></figure>
+        <figure class="photo-card"><img src="images/jpg3.jpg" alt="A memory with Bubu" onerror="this.parentElement.classList.add('photo-empty')"><figcaption>our little world</figcaption></figure>
+        <figure class="photo-card"><img src="images/jpg4.jpg" alt="A memory with Bubu" onerror="this.parentElement.classList.add('photo-empty')"><figcaption>pure happiness</figcaption></figure>
+        <figure class="photo-card photo-wide"><img src="images/jpg5.jpg" alt="A memory with Bubu" onerror="this.parentElement.classList.add('photo-empty')"><figcaption>and a thousand more memories to make...</figcaption></figure>
+        <figure class="photo-card extra-photo"><img src="images/jpg6.jpg" alt="A memory with Bubu" onerror="this.parentElement.classList.add('photo-empty')"><figcaption>♡</figcaption></figure>
+        <figure class="photo-card extra-photo"><img src="images/jpg7.jpg" alt="A memory with Bubu" onerror="this.parentElement.classList.add('photo-empty')"><figcaption>♡</figcaption></figure>
+        <figure class="photo-card extra-photo"><img src="images/jpg8.jpg" alt="A memory with Bubu" onerror="this.parentElement.classList.add('photo-empty')"><figcaption>♡</figcaption></figure>
+        <figure class="photo-card extra-photo"><img src="images/jpg9.jpg" alt="A memory with Bubu" onerror="this.parentElement.classList.add('photo-empty')"><figcaption>♡</figcaption></figure>
+        <figure class="photo-card extra-photo"><img src="images/jpg10.jpg" alt="A memory with Bubu" onerror="this.parentElement.classList.add('photo-empty')"><figcaption>♡</figcaption></figure>
+      </div>
+    </section>
+    <section class="wish-section reveal">
+      <div class="wish-orbit">✧</div><p class="section-kicker">MAKE A WISH, BIRTHDAY GIRL</p><h2>Close your eyes.<br><em>Wish big.</em></h2>
+      <p class="section-sub">May every little wish in your heart find its way to you.</p><button class="wish-btn" id="wishBtn">Make a wish <span>✦</span></button><p class="wish-feedback" id="wishFeedback" aria-live="polite"></p>
+    </section>
+    <footer class="footer">
+      <div class="footer-heart">♥</div><p class="footer-small">MADE WITH ALL MY LOVE</p><h2>For Bubu, <em>always.</em></h2><p class="footer-sign">— Harry</p><div class="footer-bottom">13.12.2026 <span>♡</span> A day as special as you</div>
+    </footer>
+  </main>
+  <audio id="bgMusic" src="audio/music.mp3" loop preload="none"></audio><div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
